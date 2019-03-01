@@ -1,13 +1,19 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.DS_Store
 *.py[cod]
-*$py.class
+*.swp
+
+/.*
+!/.gitignore
+!/.gitmodules
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -100,5 +106,11 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# DjangoGAE
+sitepackages
+
 # mypy
 .mypy_cache/
+
+# Project specific:
+static
