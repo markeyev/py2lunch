@@ -49,12 +49,12 @@ indexes:
   - name: app
   - name: name
 
-- kind: restaurants_restaurant
+- kind: restaurants_go
   properties:
   - name: __key__
     direction: desc
 
-- kind: restaurants_go
+- kind: restaurants_restaurant
   properties:
   - name: __key__
     direction: desc
