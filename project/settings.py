@@ -44,6 +44,7 @@ INSTALLED_APPS = (
     'djangae.contrib.security',
 
     'project',
+    'restaurants',
     # 'djangae.contrib.uniquetool',
 )
 
