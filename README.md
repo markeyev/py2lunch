@@ -12,6 +12,7 @@ An application, that suggests where do we want to go for a lunch today.
 6. Have fun!
 
 _more to come, stay tuned._
+For more info, please refer to [project's wiki](https://github.com/markeyev/py2lunch/wiki)
 
 ## Run local dev server.
 
