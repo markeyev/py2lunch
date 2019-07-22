@@ -31,5 +31,6 @@ For more info, please refer to [project's wiki](https://github.com/markeyev/py2l
   ```
 4. Open in the browser django dev server `http://127.0.0.1:8000` and GAE devserver admin `http://127.0.0.1:8014`.
 5. Login into django admin with your Google account email (make sure you don't have any saved cookies).
+6. Run tests `python manage.py test`
 
 Walkthrough video with running local dev server env https://youtu.be/DdKy2cwOaq8.
