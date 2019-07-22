@@ -2,6 +2,9 @@ PY2LUNCH
 =========
 > It's like go2lunch, but in python
 
+[![Build
+Status](https://travis-ci.org/markeyev/test_travis_ci.svg?branch=master)](https://travis-ci.org/markeyev/py2lunch)
+
 An application, that suggests where do we want to go for a lunch today.
 ## Goals
 1. Eliminate _"Where we're going to eat today?"_ problem
