@@ -2,6 +2,9 @@ PY2LUNCH
 =========
 > It's like go2lunch, but in python
 
+[![Build
+Status](https://travis-ci.org/markeyev/test_travis_ci.svg?branch=master)](https://travis-ci.org/markeyev/py2lunch)
+
 An application, that suggests where do we want to go for a lunch today.
 ## Goals
 1. Eliminate _"Where we're going to eat today?"_ problem
@@ -31,5 +34,6 @@ For more info, please refer to [project's wiki](https://github.com/markeyev/py2l
   ```
 4. Open in the browser django dev server `http://127.0.0.1:8000` and GAE devserver admin `http://127.0.0.1:8014`.
 5. Login into django admin with your Google account email (make sure you don't have any saved cookies).
+6. Run tests `python manage.py test`
 
 Walkthrough video with running local dev server env https://youtu.be/DdKy2cwOaq8.

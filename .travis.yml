@@ -1,0 +1,7 @@
+language: python
+python:
+  - "2.7"
+install:
+  - ./install_deps
+script:
+  - python manage.py test
