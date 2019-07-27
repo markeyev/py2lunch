@@ -112,4 +112,4 @@ sitepackages
 .mypy_cache/
 
 # Project specific:
-static
+/static

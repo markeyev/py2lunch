@@ -8,16 +8,18 @@ handlers:
 
 - url: /_ah/(mapreduce|queue|warmup|start|stop).*
   script: project.wsgi.application
-  login: admin
   secure: always
+  login: admin
 
 - url: /_ah/internalupload.*
   script: project.wsgi.application
   secure: always
+  login: required
 
 - url: /static
   static_dir: static/
   secure: always
+  login: required
 
 # Set Django admin to be login:admin as well as Django's is_staff restriction
 - url: /admin.*
@@ -28,6 +30,7 @@ handlers:
 - url: /.*
   script: project.wsgi.application
   secure: always
+  login: required
 
 env_variables:
   PYTHONHTTPSVERIFY: 1
