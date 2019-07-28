@@ -2,8 +2,8 @@
 
 from __future__ import unicode_literals
 
-from django.db import models
 from django.conf import settings
+from django.db import models
 
 
 class Restaurant(models.Model):
@@ -26,3 +26,12 @@ class Go(models.Model):
 
     class Meta:
         unique_together = ('user', 'restaurant')
+
+
+class Review(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=None)
+    restaurant = models.ForeignKey('Restaurant', on_delete=None)
+    review_text = models.TextField(null=False, blank=False)
+
+    def __str__(self):
+        return '{} posted review for {}'.format(self.user, self.restaurant)
