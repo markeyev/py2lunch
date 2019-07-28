@@ -9,7 +9,7 @@ handlers:
 - url: /_ah/(mapreduce|queue|warmup|start|stop).*
   script: project.wsgi.application
   secure: always
-  login: required
+  login: admin
 
 - url: /_ah/internalupload.*
   script: project.wsgi.application
@@ -25,7 +25,7 @@ handlers:
 - url: /admin.*
   script: project.wsgi.application
   secure: always
-  login: admin
+  login: required
 
 - url: /.*
   script: project.wsgi.application
