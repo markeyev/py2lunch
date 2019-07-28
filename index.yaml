@@ -58,3 +58,9 @@ indexes:
   properties:
   - name: __key__
     direction: desc
+
+- kind: restaurants_restaurant
+  properties:
+    - name: rating
+    - name: __key__
+      direction: desc
